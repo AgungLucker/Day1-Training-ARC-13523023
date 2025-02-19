@@ -96,6 +96,9 @@ nav img {
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
     padding: 12px 20px;
 }
 
@@ -126,8 +129,13 @@ nav img {
 .experiences {
     display: flex;
     flex-direction: column;
-    padding: 10px 50px 100px 50px;
+    padding: 10px 50px 50px 50px;
     gap: 8px;
+}
+
+.experiences h2 {
+    font-size: 1.55rem;
+    margin-bottom: 10px;
 }
 
 .experience-container {
@@ -136,11 +144,29 @@ nav img {
     gap: 16px;
 }
 
-.experience {
+.experience-desc {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 5px;
 }
 
+.experience-desc h3 {
+    font-weight: 600;
+
+}
+
+.experience-desc span {
+    color: #5b6c6c;
+}
+
+.experience-desc p {
+    color: rgb(109, 98, 98);
+}
+.separator {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
 .projects {
     display: flex;
     flex-direction: column;
